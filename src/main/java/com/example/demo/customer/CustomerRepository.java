@@ -21,7 +21,7 @@ public class CustomerRepository implements CustomerRepo {
 //
 //        );
         return Collections.singletonList( //  asList(): nên nhiều hơn 1 instance
-                new Customer(1L, "TODO: connect to real database ehheee", "todo")
+                new Customer(1L, "TODO: connect to real database ehheee", "todo", "email@gmail.com")
 
         );
     }
